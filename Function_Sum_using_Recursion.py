@@ -6,4 +6,4 @@ def sum(a):
   return 1;
  else:
   return a+sum(a-1);
-print("The summation of given series is",sum(n));
+print("The summation of given series is:",sum(n));
