@@ -5,5 +5,5 @@ def sum(a):
  if a<=1:
   return 1;
  else:
-  return a+sum(a-1);
+  return a+sum(a-1); # recursion logic here
 print("The summation of given series is:",sum(n));
